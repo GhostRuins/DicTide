@@ -1,0 +1,13 @@
+WhisperDictation — how to run on another PC
+==========================================
+
+1. Copy the ENTIRE folder "WhisperDictation" (WhisperDictation.exe + _internal folder).
+   Do not copy only the .exe — you will get "Failed to load Python DLL".
+
+2. If it still fails, install Microsoft Visual C++ Redistributable (x64):
+   https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+3. Prefer running from a local disk folder (not only cloud "online-only" OneDrive).
+
+4. If the build was made with Python 3.14 and older PCs fail, rebuild the app using
+   Python 3.11 or 3.12 (see project README).
