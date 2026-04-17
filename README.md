@@ -2,6 +2,8 @@
 
 Offline dictation with [faster-whisper](https://github.com/SYSTRAN/faster-whisper). You **record** first; **Stop** runs **one** Whisper pass on the full clip (no live chunk transcription, so no duplicated sentences from chunk boundaries). The transcript appears in the app, is copied to the **clipboard**, and can be **injected** into the focused field.
 
+Landing page: [https://ghostruins.github.io/DicTide/](https://ghostruins.github.io/DicTide/)
+
 The global hotkey is configurable from the UI. You can switch between **Toggle** mode (press to start/stop) and **Hold** mode (hold to record, release to stop). **Closing the window (X)** hides the app to the **system tray**; use tray **Quit** to exit.
 
 Only **one instance** of DicTide may run at a time; starting a second copy shows a message (check the tray if you “lost” the window).
